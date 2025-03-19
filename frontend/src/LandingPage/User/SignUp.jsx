@@ -62,7 +62,7 @@ function SignUp() {
 
 // connect frontend to backend
         try {
-            const response = await axios.post("https://backend-plra.onrender.com/signup", formData, { withCredentials: true });
+            const response = await axios.post("https://backend-km0z.onrender.com/signup", formData, { withCredentials: true });
             console.log("Signup Response:", response.data);
             // alert("Signup successful!");
 
