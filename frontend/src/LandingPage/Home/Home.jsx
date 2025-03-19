@@ -18,7 +18,7 @@ function Home() {
     // }, [navigate]);
 
     useEffect(() => {
-        axios.get("https://backend-plra.onrender.com/home", { withCredentials: true }).then((res) => {
+        axios.get("https://backend-km0z.onrender.com/home", { withCredentials: true }).then((res) => {
             console.log(res.data)
             setAllFlowers(res.data)
         })
