@@ -35,7 +35,7 @@ function Login({ setIsLoggedIn }) {
 
         // Connect frontend to backend
         try {
-            const response = await axios.post("http://localhost:3000/login", formData, { withCredentials: true });
+            const response = await axios.post("https://backend-plra.onrender.com/login", formData, { withCredentials: true });
             console.log("Login Response:", response.data);
 
             // Show success toast
