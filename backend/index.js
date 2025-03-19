@@ -64,7 +64,7 @@ app.use(methodOverride("_method"));
 
 // Enable CORS for specific origin (your frontend URL)
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://frontend-8hzj.onrender.com', // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent
 }));
 
