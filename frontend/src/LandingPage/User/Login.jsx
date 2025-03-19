@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { Link ,useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -109,7 +109,7 @@ function Login({ setIsLoggedIn }) {
 
                 <br />
                 <p className="signup-link">
-                    Don't have an account? <a href="/signup">Sign up</a>
+                    Don't have an account? <Link to="/signup">Sign up</Link>
                 </p>
             </div>
 
