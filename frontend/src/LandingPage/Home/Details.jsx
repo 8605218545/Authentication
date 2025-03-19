@@ -7,7 +7,7 @@ function Datails() {
     const { id } = useParams(); // Extract the id from the URL
 
     useEffect(() => {
-        axios.get(`https://backend-plra.onrender.com/details/${id}`).then((res) => {
+        axios.get(`https://backend-km0z.onrender.com/details/${id}`).then((res) => {
                 console.log(res.data);
                 setAllDetails(res.data); // Set the flower details
             })
