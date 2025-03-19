@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import './SignUp.css';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -157,7 +157,7 @@ function SignUp() {
                 </form>
 
                 <p className="login-link">
-                    Already have an account? &nbsp; <a href="/login">Log in</a>
+                    Already have an account? &nbsp; <Link to="/login">Log in</Link>
                 </p>
             </div>
 
